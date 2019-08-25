@@ -1,0 +1,140 @@
+body {
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: Verdana;
+  font-size: 13px;
+  color: #6d6d6d;
+}
+
+h1 {
+  margin: 0px;
+  padding: 5px 20px 5px 20px;
+
+  color: #FAFAF2;
+}
+
+h3 {
+  margin: 0px;
+  padding-top: 10px;
+}
+
+h4 {
+  margin: 0px 10px 0px 10px;
+}
+
+h5 {
+  margin: 0px;
+  padding-left: 40px;
+}
+
+#titulo {
+  font-size: 3em;
+}
+
+#textoTitulo {
+  padding-left: 40px;
+}
+
+#basicInfoTitles {
+  color: #BE5D77;
+}
+
+#basicInfo {
+  margin-left: 30px;
+}
+
+#generalText {
+  padding-left: 40px;
+}
+
+#generalText2 {
+  padding-left: 50px;
+}
+
+#menu {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  background-color: #CCCCCC;
+  overflow: hidden;
+}
+
+
+
+#menu > li {
+  float: left;
+  padding: 20px;
+}
+
+#menu > li:hover {
+  color: #FFFFFF;
+  cursor: pointer;
+  background-color: #999999;
+}
+
+a:link {
+  color: #A91F49;
+}
+
+.fotoPersonal {
+  padding: 5px;
+  width:150px;
+  height:220px;
+}
+
+.formElement {
+  width: 200px;
+  padding: 5px 10px;
+}
+
+.flexContainerTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #DEC0C1;
+  /*background: linear-gradient(to bottom left, #ffffff 0%, #dec0c1 100%);*/
+}
+
+.flexContainerTitleImage {
+
+}
+
+.flexContainerTitleInfo {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+
+.flexContainerCVInfo {
+  margin: 20px 0px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.columnaBasicInfo {
+  margin: 0px 30px 0px 0px;
+  padding-bottom: 10px;
+  background-color: #EAE6E1;
+  /*FBF8F5*/
+}
+
+.basicInfoRow {
+  padding-bottom: 0px;
+}
+
+.columnaGeneral {
+  margin: 0px 0px 0px 30px;
+  padding-bottom: 10px;
+  width: 900px;
+  background-color: #EAE6E1;
+}
+
+.flexContainerWorks {
+}
+
+.flexContainerLiderazgo {
+  margin: 20px 0px 0px 0px;
+  padding-bottom: 10px;
+  background-color: #EAE6E1;
+}
